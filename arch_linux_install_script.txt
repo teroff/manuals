@@ -122,3 +122,5 @@ sudo chown -R username:usergroup ./yay-git
 cd yay-git
 makepkg -si
 
+# Configure Russian Keyboard
+localectl --no-convert set-x11-keyboard us,ru pc105 "" grp:alt_space_toggle
